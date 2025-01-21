@@ -1,8 +1,7 @@
 {
   "name": "capacity",
   "version": "0.1.0",
-  // Add this line
-  "homepage": "https://muffin1411.github.io/capacity",
+  "homepage": "https://muffin1411-ai.github.io/capacity",
   "private": true,
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
@@ -10,13 +9,12 @@
     "lucide-react": "^0.473.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
-    // Add these two lines
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    // Keep existing scripts
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,6 +39,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17"
   }
 }
