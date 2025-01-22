@@ -2,8 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import { Truck, Fuel, Camera, Upload, AlertTriangle, Clock } from 'lucide-react';
 
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzNxjFr9X7F_ZDQwW0lo0vj0DCWmN5Jevc2YXg_4w0LLtYZUBAQDtxQQz2UUCEh7HXL/exec';
-
 function App() {
   // State Management
   const [activeTab, setActiveTab] = useState('checkinout');
